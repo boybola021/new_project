@@ -8,12 +8,7 @@ publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.1.3 <4.0.0'
-
-
-
-
-
+  sdk: '>=3.1.0 <4.0.0'
 
 
 dependencies:
@@ -21,26 +16,38 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.2
-  flutter_local_notifications: ^15.1.1
+  flutter_screenutil: ^5.9.0
+  adaptive_components: ^0.0.9
+  google_fonts: ^5.1.0
+  dynamic_color: ^1.6.6
+  flutter_bloc: ^8.1.3
+  replay_bloc: ^0.2.4
+  theme_provider: ^0.6.0
+  shelf_router: ^1.1.4
+  lottie: ^2.6.0
+  rive: ^0.11.16
+  flutter_animate: ^4.2.0+1
+  device_preview: ^1.1.0
+  device_preview_screenshot: ^1.0.0
+  smooth_page_indicator: ^1.1.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
- 
+
   flutter_lints: ^2.0.0
-
-
-
 
 
 flutter:
 
- 
- 
- 
+
   uses-material-design: true
+  assets:
+    - assets/bird.webp
+    - assets/lottie/
+    - assets/rive/
+    - assets/images/
+    - assets/telegram/
 
-
- 
  
